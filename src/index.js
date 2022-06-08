@@ -45,6 +45,7 @@ const getOrdersPromise = () => {
     });
 };
 
+// main
 async function getCheckoutsForUserAsync(userID) {
     try {
         const Users = await getUsersPromise();

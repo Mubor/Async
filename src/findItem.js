@@ -1,3 +1,4 @@
+//Поиск элементов в базе
 const findItemsByKeynameValues = (data, keyname, values) => {
     let result = [];
 
